@@ -39,7 +39,7 @@ h1 {
 
 
 .parallax {
-	background: url('../assets/back_1.jpg') no-repeat  100%;
+	background: url('../assets/back_2.jpg') no-repeat  100%;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -67,8 +67,14 @@ footer { padding-bottom: 1em; }
 .footer-icons { font-size: 2em; }
 .footer-nl { background-color: #d7f7be; }
 @media only screen and (max-width: 1028px) {
-	.parallax-two { background: url('https://wallup.net/wp-content/uploads/2017/11/23/519496-desert-Moon-stars-night-minimalism-dunes-artwork.jpg') no-repeat !important; }
-	.parallax { background: url('../assets/back_1.jpg') no-repeat !important;}
+	.parallax-two { 
+		background: url('https://wallup.net/wp-content/uploads/2017/11/23/519496-desert-Moon-stars-night-minimalism-dunes-artwork.jpg') no-repeat !important; 
+		
+	}
+	.parallax { 
+		background: url('../assets/back_2.jpg') no-repeat !important;
+		background-size: contain;
+	}
 	.parallax, .parallax-two { background-size: inherit !important; }
 	.parallax-inner { padding-bottom: 1em; padding-top: 1em; }
 
